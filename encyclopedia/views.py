@@ -12,14 +12,14 @@ from . import util
 class NewpageForm(forms.Form):
     title = forms.CharField(label="Title")
     content = forms.CharField(label="", widget=forms.Textarea(attrs={
-        "class" : "form-control col-md-8 col-lg-8", 
+        "class" : "form-control col-lg-8 col-md-6", 
         "placeholder": "Enter page content here"
     }))
 
 # Represents a form that the user can use to edit an existing entry
 class EditForm(forms.Form):
     content = forms.CharField(label="", widget=forms.Textarea(attrs={
-        "class" : "form-control col-md-8 col-lg-8"
+        "class" : "form-control col-lg-8 col-md-6" 
     }))
 
 # EFFECTS: render the default page for the application

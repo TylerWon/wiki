@@ -1,0 +1,13 @@
+{% extends 'encyclopedia/layout.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}
+    <h1>Error: Page Not Found</h1>
+{% endblock %}
+
+{% block url %}
+    href="{% url 'entry' randomEntry %}"
+{% endblock %}

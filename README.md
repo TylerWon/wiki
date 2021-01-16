@@ -11,6 +11,6 @@ An online encyclopedia built with **Django** that enables user's to easily edit 
 I created this project for CS50's Web Programming with Python and Javascript offered on edX. The premise behind this project was to develop an editable online encyclopedia using the Python web framework Django. The project had to include specific features, such as a link on every encyclopedia entry which would allow the user to edit the entry (the full specifications for this project can be found [here](https://cs50.harvard.edu/web/2020/projects/1/wiki/)).
 
 ## License
-> You can check out the full license [here](https://github.com/TylerWon/wiki/blob/master/LICENSEE)
+> You can check out the full license [here](https://github.com/TylerWon/wiki/blob/master/LICENSE)
 
 This project is licensed under the terms of the MIT license. 
